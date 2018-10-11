@@ -1,0 +1,257 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!-- start banner Area -->
+<section class="banner-area relative" id="home">
+    <div class="overlay overlay-bg"></div>
+    <div class="container">
+        <div class="row fullscreen d-flex align-items-center justify-content-start">
+            <div class="banner-content col-lg-9 col-md-12">
+                <h2 class="text-white text-uppercase">
+                    Boz Yapı İnşaat ve Dekorasyon
+                </h2>
+                <p class="text-white">
+                    Su tesisatı,Kalebodur,Tadilat ve Tamirat vs.
+                </p>
+                <a href="tel:05326747670" class="primary-btn text-uppercase">Hemen Ara Teklif Al</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End banner Area -->
+<!-- Start quote Area -->
+<section class="quote-area pt-100">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5 col-sm-12 quote-left">
+
+                <h2 class="text-right">
+                    <span>Boz Yapı</span> 2012
+                    yılından beri<br>
+                    hizmetinizde...
+
+                </h2>
+            </div>
+            @{ BozYapi.Models.tbl_Aboutus aboutus = @ViewBag.Aboutus;}
+            <div class="col-lg-7 col-sm-12 quote-right">
+                <p class="text-left">
+                    <h4><span>@aboutus.Aboutus</span></h4>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End quote Area -->
+<!-- Start cat Area -->
+<section class="cat-area section-gap" id="service">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="single-cat d-flex flex-column">
+                    <a href="#" class="hb-sm-margin mx-auto d-block"><span class="hb hb-sm inv hb-facebook-inv"><span class="lnr lnr-cog"></span></span></a>
+                    <h4 class="mb-20" style="margin-top: 23px;">Teshisat</h4>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="single-cat">
+                    <a href="#" class="hb-sm-margin mx-auto d-block"><span class="hb hb-sm inv hb-facebook-inv"><span class="lnr lnr-magic-wand"></span></span></a>
+                    <h4 class="mt-40 mb-20">Boya</h4>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="single-cat">
+                    <a href="#" class="hb-sm-margin mx-auto d-block"><span class="hb hb-sm inv hb-facebook-inv"><span class="lnr lnr-home"></span></span></a>
+                    <h4 class="mt-40 mb-20">Dekor Taş Döşeme</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- End cat Area -->
+<!-- Start feature Area -->
+<section class="feature-area relative" id="feature">
+    <img class="feature-img" src="~/img/f1.jpg" alt="">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-8 offset-lg-4 feature-right section-gap">
+                <div class="row single-feature-wrap justify-content-end">
+                    @{ BozYapi.Models.tbl_Services services = @ViewBag.Services; }
+                    <div class="title-wrap col-lg-10 col-sm-12">
+                        <h1>Hizmetlerimiz</h1>
+                        <p>
+
+                        </p>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="single-feature">
+                            <h3>Teshisat</h3>
+                            <br />
+                            <p>
+                                @services.Service_Tesisat
+                            </p>
+                        </div>
+                        <div class="single-feature">
+                            <h3>Tadilat</h3>
+                            <p>
+                                @services.Service_Tadilat
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="single-feature">
+                            <h3>Dekorasyon</h3>
+                            <p>
+                                @services.Service_Dekorasyon
+                            </p>
+                        </div>
+                        <div class="single-feature">
+                            <h3>Nalbur</h3>
+                            <p>
+                                @services.Service_Nalbur
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End feature Area -->
+<!-- Start counter Area -->
+<section class="counter-area section-gap" id="counter">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="single-counter">
+                    @*<img src="~/img/44/clamp.png" style="margin-bottom:20px" />*@
+                    <li class="fa fa-smile-o fa-5x" style="color:#f53f51;"></li>
+                    <h4 style="color: #7d5d5d;">Müşteri Memnuniyeti</h4>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-counter">
+                    <img src="~/img/44/quality.png" style="margin-bottom: 30px;width: auto;height: 85px;" />
+
+
+                    <h4 style="color: #7d5d5d;">Kaliteli Hizmet</h4>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="single-counter">
+                    <img src="~/img/44/helmet.png" style="margin-bottom: 20px;width: auto;height: 45px;" />
+
+
+                    @*<li class="fa fa-shield fa-5x"></li>*@
+                    <h4 style="color: #7d5d5d;">Güvenilir Usta</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end counter Area -->
+<!-- Start video Area -->
+<section class="video-area pb-100" id="video">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="video-section section-gap col-lg-12">
+                <div class="text-wrap">
+                    <h1 class="text-white">Referansımız Yaptığımız İşler</h1><br />
+                    <h3 style="color:white">
+                        İşleriniz kaliteli ve güvenli bir şekilde yapılır,anlaşılan şekilde teslim edilir.
+
+                    </h3>
+                    <div class="play-btn-wrap">
+                        <a href="https://www.youtube.com/watch?v=4iIVz0SLH9Q" class="play-btn">
+
+                            <img src="~/img/play-btn.png" alt=""> Tanıtım Videomuzu Seyredin
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End video Area -->
+<!-- Start testomial Area -->
+@*<section class="testomial-area section-gap" id="testimonail">
+        <div style="margin-left:50px" ;>
+
+
+            <img src="~/img/3.PNG" width="50" height="50"
+                 onclick="this.src='~/img/3.PNG';this.height=100;this.width=100"
+                 ondblclick="this.src='~/img/3.PNG';this.width=50; this.height=50;" />
+
+
+            <img src="~/img/3.PNG" width="300" height="300" />
+            <img src="~/img/1.PNG" width="300" height="300" />
+            <img src="~/img/6.PNG" width="300" height="300" />
+            <img src="~/img/5.PNG" width="300" height="300" />
+        </div>
+    </section>*@
+
+
+<div class="section-top-border">
+    <h3>Image Gallery</h3>
+
+    <div class="row gallery-item">
+        @foreach (BozYapi.Models.tbl_Images gallery in ViewBag.Images)
+    {<div class="col-md-4">
+
+            <a href="/img/gallery/@gallery.Image" class="img-pop-up"><div class="single-gallery-image" style="background: url(/img/gallery/@gallery.Image);"></div></a>
+        </div>
+
+}
+    </div>
+
+    </div>
+    <div class="section-top-border">
+        @*<h3>Image Gallery</h3>
+            <div class="row gallery-item">
+                <div class="col-md-4">
+                    <a href="img/elements/g1.jpg" class="img-pop-up"><div class="single-gallery-image" style="background: url(img/elements/g1.jpg);"></div></a>
+                </div>
+                <div class="col-md-4">
+                    <a href="img/elements/g2.jpg" class="img-pop-up"><div class="single-gallery-image" style="background: url(img/elements/g2.jpg);"></div></a>
+                </div>
+                <div class="col-md-4">
+                    <a href="img/elements/g3.jpg" class="img-pop-up"><div class="single-gallery-image" style="background: url(img/elements/g3.jpg);"></div></a>
+                </div>
+                <div class="col-md-6">
+                    <a href="img/elements/g4.jpg" class="img-pop-up"><div class="single-gallery-image" style="background: url(img/elements/g4.jpg);"></div></a>
+                </div>
+                <div class="col-md-6">
+                    <a href="img/elements/g5.jpg" class="img-pop-up"><div class="single-gallery-image" style="background: url(img/elements/g5.jpg);"></div></a>
+                </div>
+                <div class="col-md-4">
+                    <a href="img/elements/g6.jpg" class="img-pop-up"><div class="single-gallery-image" style="background: url(img/elements/g6.jpg);"></div></a>
+                </div>
+                <div class="col-md-4">
+                    <a href="img/elements/g7.jpg" class="img-pop-up"><div class="single-gallery-image" style="background: url(img/elements/g7.jpg);"></div></a>
+                </div>
+                <div class="col-md-4">
+                    <a href="img/elements/g8.jpg" class="img-pop-up"><div class="single-gallery-image" style="background: url(img/elements/g8.jpg);"></div></a>
+                </div>
+            </div>*@
+    </div>
+    <!-- End testomial Area -->
+    <!-- Start contact Area -->
+    @*<section class="contact-area" id="contact">
+            <div class="container">
+
+            </div>
+
+        </section>*@
+    @{ BozYapi.Models.tbl_Contact contact = @ViewBag.Contact; }
+
+
+
+    <!-- End contact Area -->
+    <div id="googleMap">
+        <iframe src="@contact.Google" width="100%" height="700" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    </div>

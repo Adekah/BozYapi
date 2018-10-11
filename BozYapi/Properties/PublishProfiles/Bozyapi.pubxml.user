@@ -1,0 +1,940 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\asus\Desktop\BozYapı\BozYapi\BozYapi\bin\Publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/BozYapi.dll">
+      <publishTime>10/04/2018 20:46:50</publishTime>
+    </File>
+    <File Include="bin/BozYapi.pdb">
+      <publishTime>10/04/2018 20:46:50</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>07/06/2018 11:03:48</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>07/06/2018 11:03:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>01/02/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>01/02/2018 12:16:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>01/02/2018 12:16:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>01/02/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>01/02/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>01/02/2018 12:20:56</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>09/21/2018 00:49:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css.map">
+      <publishTime>09/21/2018 00:49:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css">
+      <publishTime>09/21/2018 00:49:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>09/21/2018 00:49:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>09/21/2018 00:49:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>09/21/2018 00:49:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>09/21/2018 00:49:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>09/21/2018 00:49:09</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>09/21/2018 00:49:09</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>09/21/2018 00:49:09</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>09/21/2018 00:49:09</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>09/21/2018 00:49:09</publishTime>
+    </File>
+    <File Include="Content/css/.DS_Store">
+      <publishTime>09/21/2018 00:14:19</publishTime>
+    </File>
+    <File Include="Content/css/animate.min.css">
+      <publishTime>09/21/2018 00:14:19</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap.css">
+      <publishTime>09/21/2018 00:14:19</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap.map">
+      <publishTime>09/21/2018 00:14:19</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap/bootstrap-grid.css">
+      <publishTime>09/21/2018 00:14:19</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap/bootstrap-reboot.css">
+      <publishTime>09/21/2018 00:14:19</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap/bootstrap.css">
+      <publishTime>09/21/2018 00:14:19</publishTime>
+    </File>
+    <File Include="Content/css/font-awesome.min.css">
+      <publishTime>09/21/2018 00:14:19</publishTime>
+    </File>
+    <File Include="Content/css/hexagons.min.css">
+      <publishTime>09/21/2018 00:14:19</publishTime>
+    </File>
+    <File Include="Content/css/jquery.DonutWidget.min.css">
+      <publishTime>09/21/2018 00:14:19</publishTime>
+    </File>
+    <File Include="Content/css/jquerysctipttop.css">
+      <publishTime>09/21/2018 00:14:19</publishTime>
+    </File>
+    <File Include="Content/css/linearicons.css">
+      <publishTime>09/21/2018 00:14:19</publishTime>
+    </File>
+    <File Include="Content/css/magnific-popup.css">
+      <publishTime>09/21/2018 00:14:19</publishTime>
+    </File>
+    <File Include="Content/css/main.css">
+      <publishTime>03/10/2018 10:18:50</publishTime>
+    </File>
+    <File Include="Content/css/main.map">
+      <publishTime>09/21/2018 00:14:20</publishTime>
+    </File>
+    <File Include="Content/css/nice-select.css">
+      <publishTime>09/21/2018 00:14:20</publishTime>
+    </File>
+    <File Include="Content/css/owl.carousel.css">
+      <publishTime>09/21/2018 00:14:20</publishTime>
+    </File>
+    <File Include="Content/css/theme/pages.css">
+      <publishTime>09/21/2018 00:14:20</publishTime>
+    </File>
+    <File Include="Content/fontawesome/font-awesome.css">
+      <publishTime>09/20/2018 22:36:37</publishTime>
+    </File>
+    <File Include="Content/fontawesome/font-awesome.min.css">
+      <publishTime>09/20/2018 22:36:37</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome-webfont.eot">
+      <publishTime>09/20/2018 22:36:37</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome-webfont.svg">
+      <publishTime>09/20/2018 22:36:37</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome-webfont.ttf">
+      <publishTime>09/20/2018 22:36:37</publishTime>
+    </File>
+    <File Include="Content/fonts/fontawesome-webfont.woff">
+      <publishTime>09/20/2018 22:36:37</publishTime>
+    </File>
+    <File Include="Content/fonts/FontAwesome.otf">
+      <publishTime>09/20/2018 22:36:36</publishTime>
+    </File>
+    <File Include="Content/fonts/Linearicons-Free.ttf">
+      <publishTime>09/21/2018 10:46:51</publishTime>
+    </File>
+    <File Include="Content/fonts/Linearicons-Free.woff">
+      <publishTime>09/21/2018 10:46:51</publishTime>
+    </File>
+    <File Include="Content/fonts/Linearicons-Free.woff2">
+      <publishTime>09/21/2018 10:46:51</publishTime>
+    </File>
+    <File Include="Content/scss/.DS_Store">
+      <publishTime>09/21/2018 00:14:44</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap.scss">
+      <publishTime>09/21/2018 00:14:47</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/.DS_Store">
+      <publishTime>09/21/2018 00:14:44</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/bootstrap-grid.scss">
+      <publishTime>09/21/2018 00:14:44</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/bootstrap-reboot.scss">
+      <publishTime>09/21/2018 00:14:44</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/bootstrap.scss">
+      <publishTime>09/21/2018 00:14:44</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_alert.scss">
+      <publishTime>09/21/2018 00:14:44</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_background-variant.scss">
+      <publishTime>09/21/2018 00:14:44</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_badge.scss">
+      <publishTime>09/21/2018 00:14:44</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_border-radius.scss">
+      <publishTime>09/21/2018 00:14:44</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_box-shadow.scss">
+      <publishTime>09/21/2018 00:14:44</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_breakpoints.scss">
+      <publishTime>09/21/2018 00:14:44</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_buttons.scss">
+      <publishTime>09/21/2018 00:14:44</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_caret.scss">
+      <publishTime>09/21/2018 00:14:44</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_clearfix.scss">
+      <publishTime>09/21/2018 00:14:44</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_float.scss">
+      <publishTime>09/21/2018 00:14:44</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_forms.scss">
+      <publishTime>09/21/2018 00:14:44</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_gradients.scss">
+      <publishTime>09/21/2018 00:14:44</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_grid-framework.scss">
+      <publishTime>09/21/2018 00:14:44</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_grid.scss">
+      <publishTime>09/21/2018 00:14:44</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_hover.scss">
+      <publishTime>09/21/2018 00:14:44</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_image.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_list-group.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_lists.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_nav-divider.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_navbar-align.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_pagination.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_reset-text.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_resize.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_screen-reader.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_size.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_table-row.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_text-emphasis.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_text-hide.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_text-truncate.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_transition.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/mixins/_visibility.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/utilities/_align.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/utilities/_background.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/utilities/_borders.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/utilities/_clearfix.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/utilities/_display.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/utilities/_embed.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/utilities/_flex.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/utilities/_float.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/utilities/_position.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/utilities/_screenreaders.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/utilities/_sizing.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/utilities/_spacing.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/utilities/_text.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/utilities/_visibility.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_alert.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_badge.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_breadcrumb.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_button-group.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_buttons.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_card.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_carousel.scss">
+      <publishTime>09/21/2018 00:14:45</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_close.scss">
+      <publishTime>09/21/2018 00:14:46</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_code.scss">
+      <publishTime>09/21/2018 00:14:46</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_custom-forms.scss">
+      <publishTime>09/21/2018 00:14:46</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_dropdown.scss">
+      <publishTime>09/21/2018 00:14:46</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_forms.scss">
+      <publishTime>09/21/2018 00:14:46</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_functions.scss">
+      <publishTime>09/21/2018 00:14:46</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_grid.scss">
+      <publishTime>09/21/2018 00:14:46</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_images.scss">
+      <publishTime>09/21/2018 00:14:46</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_input-group.scss">
+      <publishTime>09/21/2018 00:14:46</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_jumbotron.scss">
+      <publishTime>09/21/2018 00:14:46</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_list-group.scss">
+      <publishTime>09/21/2018 00:14:46</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_media.scss">
+      <publishTime>09/21/2018 00:14:46</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_mixins.scss">
+      <publishTime>09/21/2018 00:14:46</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_modal.scss">
+      <publishTime>09/21/2018 00:14:46</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_nav.scss">
+      <publishTime>09/21/2018 00:14:46</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_navbar.scss">
+      <publishTime>09/21/2018 00:14:46</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_pagination.scss">
+      <publishTime>09/21/2018 00:14:46</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_popover.scss">
+      <publishTime>09/21/2018 00:14:46</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_print.scss">
+      <publishTime>09/21/2018 00:14:46</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_progress.scss">
+      <publishTime>09/21/2018 00:14:46</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_reboot.scss">
+      <publishTime>09/21/2018 00:14:46</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_root.scss">
+      <publishTime>09/21/2018 00:14:47</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_tables.scss">
+      <publishTime>09/21/2018 00:14:47</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_tooltip.scss">
+      <publishTime>09/21/2018 00:14:47</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_transitions.scss">
+      <publishTime>09/21/2018 00:14:47</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_type.scss">
+      <publishTime>09/21/2018 00:14:47</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_utilities.scss">
+      <publishTime>09/21/2018 00:14:47</publishTime>
+    </File>
+    <File Include="Content/scss/bootstrap/_variables.scss">
+      <publishTime>09/21/2018 00:14:47</publishTime>
+    </File>
+    <File Include="Content/scss/main.scss">
+      <publishTime>09/21/2018 00:14:47</publishTime>
+    </File>
+    <File Include="Content/scss/theme/.DS_Store">
+      <publishTime>09/21/2018 00:14:47</publishTime>
+    </File>
+    <File Include="Content/scss/theme/_elements.scss">
+      <publishTime>09/21/2018 00:14:47</publishTime>
+    </File>
+    <File Include="Content/scss/theme/_flexbox.scss">
+      <publishTime>09/21/2018 00:14:47</publishTime>
+    </File>
+    <File Include="Content/scss/theme/_footer.scss">
+      <publishTime>09/21/2018 00:14:47</publishTime>
+    </File>
+    <File Include="Content/scss/theme/_header.scss">
+      <publishTime>09/21/2018 00:14:47</publishTime>
+    </File>
+    <File Include="Content/scss/theme/_home.scss">
+      <publishTime>09/27/2018 21:46:32</publishTime>
+    </File>
+    <File Include="Content/scss/theme/_mixins.scss">
+      <publishTime>09/21/2018 00:14:47</publishTime>
+    </File>
+    <File Include="Content/scss/theme/_reset.scss">
+      <publishTime>09/21/2018 00:14:47</publishTime>
+    </File>
+    <File Include="Content/scss/theme/_variables.scss">
+      <publishTime>09/21/2018 00:14:47</publishTime>
+    </File>
+    <File Include="Content/side.css">
+      <publishTime>09/24/2018 22:45:26</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/20/2018 22:31:18</publishTime>
+    </File>
+    <File Include="img/.DS_Store">
+      <publishTime>09/21/2018 00:29:17</publishTime>
+    </File>
+    <File Include="img/44/bruch.png">
+      <publishTime>02/10/2018 23:19:26</publishTime>
+    </File>
+    <File Include="img/44/circular_saw.png">
+      <publishTime>02/10/2018 23:19:26</publishTime>
+    </File>
+    <File Include="img/44/clamp.png">
+      <publishTime>02/10/2018 23:19:26</publishTime>
+    </File>
+    <File Include="img/44/drill.png">
+      <publishTime>02/10/2018 23:19:26</publishTime>
+    </File>
+    <File Include="img/44/gears.png">
+      <publishTime>02/10/2018 23:19:26</publishTime>
+    </File>
+    <File Include="img/44/hammer.png">
+      <publishTime>02/10/2018 23:19:26</publishTime>
+    </File>
+    <File Include="img/44/helmet.png">
+      <publishTime>03/10/2018 10:13:05</publishTime>
+    </File>
+    <File Include="img/44/jackhammer.png">
+      <publishTime>02/10/2018 23:19:26</publishTime>
+    </File>
+    <File Include="img/44/jointer.png">
+      <publishTime>02/10/2018 23:19:26</publishTime>
+    </File>
+    <File Include="img/44/jumper.png">
+      <publishTime>02/10/2018 23:19:26</publishTime>
+    </File>
+    <File Include="img/44/pipe_wrench.png">
+      <publishTime>02/10/2018 23:19:26</publishTime>
+    </File>
+    <File Include="img/44/pliers.png">
+      <publishTime>02/10/2018 23:19:26</publishTime>
+    </File>
+    <File Include="img/44/quality.png">
+      <publishTime>03/10/2018 10:12:43</publishTime>
+    </File>
+    <File Include="img/44/saw_1.png">
+      <publishTime>02/10/2018 23:19:26</publishTime>
+    </File>
+    <File Include="img/44/saw_2.png">
+      <publishTime>02/10/2018 23:19:26</publishTime>
+    </File>
+    <File Include="img/44/screw.png">
+      <publishTime>02/10/2018 23:19:26</publishTime>
+    </File>
+    <File Include="img/44/screwdriver.png">
+      <publishTime>02/10/2018 23:19:26</publishTime>
+    </File>
+    <File Include="img/44/spanner.png">
+      <publishTime>02/10/2018 23:19:26</publishTime>
+    </File>
+    <File Include="img/44/tape-measure.png">
+      <publishTime>02/10/2018 23:19:26</publishTime>
+    </File>
+    <File Include="img/44/tape.png">
+      <publishTime>02/10/2018 23:19:26</publishTime>
+    </File>
+    <File Include="img/44/wrench.png">
+      <publishTime>02/10/2018 23:19:26</publishTime>
+    </File>
+    <File Include="img/51_01_Home.jpg">
+      <publishTime>09/21/2018 00:29:17</publishTime>
+    </File>
+    <File Include="img/elements/d.jpg">
+      <publishTime>09/21/2018 00:29:17</publishTime>
+    </File>
+    <File Include="img/elements/disabled-check.png">
+      <publishTime>09/21/2018 00:29:17</publishTime>
+    </File>
+    <File Include="img/elements/disabled-radio.png">
+      <publishTime>09/21/2018 00:29:17</publishTime>
+    </File>
+    <File Include="img/elements/f1.jpg">
+      <publishTime>09/21/2018 00:29:17</publishTime>
+    </File>
+    <File Include="img/elements/f2.jpg">
+      <publishTime>09/21/2018 00:29:17</publishTime>
+    </File>
+    <File Include="img/elements/f3.jpg">
+      <publishTime>09/21/2018 00:29:17</publishTime>
+    </File>
+    <File Include="img/elements/f4.jpg">
+      <publishTime>09/21/2018 00:29:17</publishTime>
+    </File>
+    <File Include="img/elements/f5.jpg">
+      <publishTime>09/21/2018 00:29:17</publishTime>
+    </File>
+    <File Include="img/elements/f6.jpg">
+      <publishTime>09/21/2018 00:29:17</publishTime>
+    </File>
+    <File Include="img/elements/f7.jpg">
+      <publishTime>09/21/2018 00:29:17</publishTime>
+    </File>
+    <File Include="img/elements/f8.jpg">
+      <publishTime>09/21/2018 00:29:17</publishTime>
+    </File>
+    <File Include="img/elements/g1.jpg">
+      <publishTime>09/21/2018 00:29:17</publishTime>
+    </File>
+    <File Include="img/elements/g2.jpg">
+      <publishTime>09/21/2018 00:29:17</publishTime>
+    </File>
+    <File Include="img/elements/g3.jpg">
+      <publishTime>09/21/2018 00:29:17</publishTime>
+    </File>
+    <File Include="img/elements/g4.jpg">
+      <publishTime>09/21/2018 00:29:17</publishTime>
+    </File>
+    <File Include="img/elements/g5.jpg">
+      <publishTime>09/21/2018 00:29:17</publishTime>
+    </File>
+    <File Include="img/elements/g6.jpg">
+      <publishTime>09/21/2018 00:29:17</publishTime>
+    </File>
+    <File Include="img/elements/g7.jpg">
+      <publishTime>09/21/2018 00:29:17</publishTime>
+    </File>
+    <File Include="img/elements/g8.jpg">
+      <publishTime>09/21/2018 00:29:17</publishTime>
+    </File>
+    <File Include="img/elements/is1.jpg">
+      <publishTime>09/30/2018 12:33:59</publishTime>
+    </File>
+    <File Include="img/elements/is2.PNG">
+      <publishTime>09/30/2018 12:33:59</publishTime>
+    </File>
+    <File Include="img/elements/is3.jpg">
+      <publishTime>09/30/2018 12:33:59</publishTime>
+    </File>
+    <File Include="img/elements/primary-check.png">
+      <publishTime>09/21/2018 00:29:17</publishTime>
+    </File>
+    <File Include="img/elements/primary-radio.png">
+      <publishTime>09/21/2018 00:29:17</publishTime>
+    </File>
+    <File Include="img/elements/success-check.png">
+      <publishTime>09/21/2018 00:29:18</publishTime>
+    </File>
+    <File Include="img/elements/success-radio.png">
+      <publishTime>09/21/2018 00:29:18</publishTime>
+    </File>
+    <File Include="img/f1.jpg">
+      <publishTime>09/21/2018 00:29:18</publishTime>
+    </File>
+    <File Include="img/gallery/1.PNG">
+      <publishTime>03/10/2018 20:34:36</publishTime>
+    </File>
+    <File Include="img/gallery/10.jpg">
+      <publishTime>03/10/2018 20:28:45</publishTime>
+    </File>
+    <File Include="img/gallery/2.PNG">
+      <publishTime>03/10/2018 20:40:59</publishTime>
+    </File>
+    <File Include="img/gallery/3.PNG">
+      <publishTime>03/10/2018 20:31:29</publishTime>
+    </File>
+    <File Include="img/gallery/4.PNG">
+      <publishTime>03/10/2018 20:45:30</publishTime>
+    </File>
+    <File Include="img/gallery/5.jpg">
+      <publishTime>03/10/2018 20:26:09</publishTime>
+    </File>
+    <File Include="img/gallery/6.jpg">
+      <publishTime>03/10/2018 20:26:55</publishTime>
+    </File>
+    <File Include="img/gallery/7.jpg">
+      <publishTime>03/10/2018 20:27:14</publishTime>
+    </File>
+    <File Include="img/gallery/8.jpg">
+      <publishTime>03/10/2018 20:27:48</publishTime>
+    </File>
+    <File Include="img/gallery/9.jpg">
+      <publishTime>03/10/2018 20:28:23</publishTime>
+    </File>
+    <File Include="img/header-bg.jpg">
+      <publishTime>09/21/2018 00:29:18</publishTime>
+    </File>
+    <File Include="img/IMG-20180916-WA0000.jpg">
+      <publishTime>09/30/2018 12:14:45</publishTime>
+    </File>
+    <File Include="img/jackhammer.png">
+      <publishTime>02/10/2018 23:19:26</publishTime>
+    </File>
+    <File Include="img/location.png">
+      <publishTime>04/10/2018 11:26:38</publishTime>
+    </File>
+    <File Include="img/logo.png">
+      <publishTime>02/10/2018 20:03:34</publishTime>
+    </File>
+    <File Include="img/mail.png">
+      <publishTime>04/10/2018 11:27:33</publishTime>
+    </File>
+    <File Include="img/phone.png">
+      <publishTime>04/10/2018 11:25:37</publishTime>
+    </File>
+    <File Include="img/play-btn.png">
+      <publishTime>09/21/2018 00:29:18</publishTime>
+    </File>
+    <File Include="img/video-bg.jpg">
+      <publishTime>02/10/2018 23:57:57</publishTime>
+    </File>
+    <File Include="Models/Model1.edmx.diagram">
+      <publishTime>10/04/2018 20:42:29</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js">
+      <publishTime>09/21/2018 00:49:09</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js.map">
+      <publishTime>09/21/2018 00:49:09</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js">
+      <publishTime>09/21/2018 00:49:09</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js.map">
+      <publishTime>09/21/2018 00:49:09</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>09/21/2018 00:49:09</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js.map">
+      <publishTime>09/21/2018 00:49:09</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>09/21/2018 00:49:09</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js.map">
+      <publishTime>09/21/2018 00:49:09</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js">
+      <publishTime>09/20/2018 22:33:51</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js.map">
+      <publishTime>09/20/2018 22:33:51</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js">
+      <publishTime>09/20/2018 22:33:51</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js.map">
+      <publishTime>09/20/2018 22:33:51</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js">
+      <publishTime>09/20/2018 22:33:51</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js.map">
+      <publishTime>09/20/2018 22:33:50</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js">
+      <publishTime>09/20/2018 22:33:50</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js.map">
+      <publishTime>09/20/2018 22:33:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.js">
+      <publishTime>09/21/2018 00:49:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.min.js">
+      <publishTime>09/21/2018 00:49:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.min.map">
+      <publishTime>09/21/2018 00:49:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.slim.js">
+      <publishTime>09/21/2018 00:49:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.slim.min.js">
+      <publishTime>09/21/2018 00:49:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.0.0.slim.min.map">
+      <publishTime>09/21/2018 00:49:03</publishTime>
+    </File>
+    <File Include="Scripts/js.js">
+      <publishTime>03/10/2018 18:14:03</publishTime>
+    </File>
+    <File Include="Scripts/js/.DS_Store">
+      <publishTime>09/21/2018 00:13:11</publishTime>
+    </File>
+    <File Include="Scripts/js/easing.min.js">
+      <publishTime>09/21/2018 00:13:11</publishTime>
+    </File>
+    <File Include="Scripts/js/hexagons.min.js">
+      <publishTime>09/21/2018 00:13:11</publishTime>
+    </File>
+    <File Include="Scripts/js/hoverIntent.js">
+      <publishTime>09/21/2018 00:13:11</publishTime>
+    </File>
+    <File Include="Scripts/js/jquery.ajaxchimp.min.js">
+      <publishTime>09/21/2018 00:13:12</publishTime>
+    </File>
+    <File Include="Scripts/js/jquery.counterup.min.js">
+      <publishTime>09/21/2018 00:13:12</publishTime>
+    </File>
+    <File Include="Scripts/js/jquery.magnific-popup.min.js">
+      <publishTime>09/21/2018 00:13:12</publishTime>
+    </File>
+    <File Include="Scripts/js/jquery.nice-select.min.js">
+      <publishTime>09/21/2018 00:13:12</publishTime>
+    </File>
+    <File Include="Scripts/js/jquery.sticky.js">
+      <publishTime>09/21/2018 00:13:12</publishTime>
+    </File>
+    <File Include="Scripts/js/mail-script.js">
+      <publishTime>09/21/2018 00:13:12</publishTime>
+    </File>
+    <File Include="Scripts/js/main.js">
+      <publishTime>09/21/2018 00:13:12</publishTime>
+    </File>
+    <File Include="Scripts/js/owl.carousel.min.js">
+      <publishTime>09/21/2018 00:13:12</publishTime>
+    </File>
+    <File Include="Scripts/js/parallax.min.js">
+      <publishTime>09/21/2018 00:13:12</publishTime>
+    </File>
+    <File Include="Scripts/js/slick.js">
+      <publishTime>09/21/2018 00:13:12</publishTime>
+    </File>
+    <File Include="Scripts/js/superfish.js">
+      <publishTime>09/21/2018 00:13:12</publishTime>
+    </File>
+    <File Include="Scripts/js/superfish.min.js">
+      <publishTime>09/21/2018 00:13:13</publishTime>
+    </File>
+    <File Include="Scripts/js/vendor/bootstrap.min.js">
+      <publishTime>09/21/2018 00:13:13</publishTime>
+    </File>
+    <File Include="Scripts/js/vendor/jquery-2.2.4.min.js">
+      <publishTime>09/21/2018 00:13:13</publishTime>
+    </File>
+    <File Include="Scripts/js/waypoints.min.js">
+      <publishTime>09/21/2018 00:13:13</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js">
+      <publishTime>09/20/2018 22:33:48</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js.map">
+      <publishTime>09/20/2018 22:33:48</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js">
+      <publishTime>09/20/2018 22:33:48</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js.map">
+      <publishTime>09/20/2018 22:33:48</publishTime>
+    </File>
+    <File Include="Scripts/popper.js">
+      <publishTime>09/20/2018 22:33:48</publishTime>
+    </File>
+    <File Include="Scripts/popper.js.map">
+      <publishTime>09/20/2018 22:33:48</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js">
+      <publishTime>09/20/2018 22:33:48</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js.map">
+      <publishTime>09/20/2018 22:33:48</publishTime>
+    </File>
+    <File Include="Scripts/README.md">
+      <publishTime>09/20/2018 22:33:48</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js">
+      <publishTime>09/20/2018 22:33:47</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js.map">
+      <publishTime>09/20/2018 22:33:47</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js">
+      <publishTime>09/20/2018 22:33:47</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js.map">
+      <publishTime>09/20/2018 22:33:47</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js">
+      <publishTime>09/20/2018 22:33:47</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js.map">
+      <publishTime>09/20/2018 22:33:47</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js">
+      <publishTime>09/20/2018 22:33:47</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js.map">
+      <publishTime>09/20/2018 22:33:47</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>04/10/2018 11:07:05</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>04/10/2018 11:42:53</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>09/20/2018 22:31:20</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/04/2018 20:46:51</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

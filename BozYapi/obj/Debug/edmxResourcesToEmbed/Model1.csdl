@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BozYapiDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tbl_Hizmetler">
+    <Key>
+      <PropertyRef Name="Hizmet_ID" />
+    </Key>
+    <Property Name="Hizmet_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Hizmet_Adı" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_Images">
+    <Key>
+      <PropertyRef Name="Image_ID" />
+    </Key>
+    <Property Name="Image_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Image" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Image_Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Image_Text" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_Urunler">
+    <Key>
+      <PropertyRef Name="Urun_ID" />
+    </Key>
+    <Property Name="Urun_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Urun_Adi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Urun_Text" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="BozYapiDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tbl_Hizmetler" EntityType="Self.tbl_Hizmetler" />
+    <EntitySet Name="tbl_Images" EntityType="Self.tbl_Images" />
+    <EntitySet Name="tbl_Urunler" EntityType="Self.tbl_Urunler" />
+  </EntityContainer>
+</Schema>

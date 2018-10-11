@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BozYapiDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tbl_Aboutus">
+    <Key>
+      <PropertyRef Name="Aboutus_ID" />
+    </Key>
+    <Property Name="Aboutus_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Aboutus" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="tbl_Contact">
+    <Key>
+      <PropertyRef Name="Contact_ID" />
+    </Key>
+    <Property Name="Contact_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Google" Type="nvarchar(max)" />
+    <Property Name="Adres" Type="nvarchar" MaxLength="100" />
+    <Property Name="Telefon" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mail" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbl_Images">
+    <Key>
+      <PropertyRef Name="Image_ID" />
+    </Key>
+    <Property Name="Image_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Image" Type="nvarchar" MaxLength="50" />
+    <Property Name="Image_Title" Type="nvarchar" MaxLength="50" />
+    <Property Name="Image_Text" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbl_Products">
+    <Key>
+      <PropertyRef Name="Product_ID" />
+    </Key>
+    <Property Name="Product_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Product_Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbl_Services">
+    <Key>
+      <PropertyRef Name="Service_ID" />
+    </Key>
+    <Property Name="Service_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Service_Tesisat" Type="nvarchar(max)" />
+    <Property Name="Service_Tadilat" Type="nvarchar(max)" />
+    <Property Name="Service_Dekorasyon" Type="nvarchar(max)" />
+    <Property Name="Service_Nalbur" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityContainer Name="BozYapiDBModelStoreContainer">
+    <EntitySet Name="tbl_Aboutus" EntityType="Self.tbl_Aboutus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Contact" EntityType="Self.tbl_Contact" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Images" EntityType="Self.tbl_Images" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Products" EntityType="Self.tbl_Products" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Services" EntityType="Self.tbl_Services" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

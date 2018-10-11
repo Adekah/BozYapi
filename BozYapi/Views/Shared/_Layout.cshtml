@@ -1,0 +1,153 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="~/img/jackhammer.png">
+    <!-- Author Meta -->
+    <meta name="author" content="codepixer">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width" />
+    <title>Boz Yapı</title>
+    <link href="~/Content/css/linearicons.css" rel="stylesheet" />
+    <link href="~/Content/fontawesome/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/css/magnific-popup.css" rel="stylesheet" />
+    <link href="~/Content/css/nice-select.css" rel="stylesheet" />
+    <link href="~/Content/css/hexagons.min.css" rel="stylesheet" />
+    <link href="~/Content/css/animate.min.css" rel="stylesheet" />
+    <link href="~/Content/css/owl.carousel.css" rel="stylesheet" />
+    <link href="~/Content/css/main.css" rel="stylesheet" />
+    <link href="~/Content/side.css" rel="stylesheet" />
+</head>
+<body>
+    <header id="header" id="home">
+        <div class="container">
+            <div class="row align-items-center justify-content-between d-flex">
+                <div id="logo">
+                    <a href="index.html"><img style=" width: 200px;" src="~/img/logo.png" alt="" title="" /></a>
+                </div>
+                <nav id="nav-menu-container">
+                    <ul class="nav-menu">
+
+                        <li class="menu-active"><a href="#home">ANASAYFA</a></li>
+                        <li><a href="#service">SERVİS</a></li>
+                        <li><a href="#feature">HİZMETLER</a></li>
+                        <li><a href="#testimonail">GALERİ</a></li>
+                        <li><a href="#contact">İLETİŞİM</a></li>
+                        @*<li class="menu-has-children">
+                                <a href="">Pages</a>
+                                <ul>
+                                    <li><a href="generic.html">Generic</a></li>
+                                    <li><a href="elements.html">Elements</a></li>
+                                </ul>
+                            </li>*@
+                    </ul>
+                </nav><!-- #nav-menu-container -->
+            </div>
+        </div>
+    </header>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <!-- start footer Area -->
+    <footer class="footer-area section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+
+
+                        @{ BozYapi.Models.tbl_Contact contact = @ViewBag.Contact; }
+
+
+                        <h4 style="color:white;text-align:center"> İLETİŞİM</h4>
+                        <p>
+
+
+                        <img src="~/img/location.png" <p style="color:white;text-align:center">@contact.Adres</p> 
+                        <br />
+
+                        <img src="~/img/phone.png"   <p style="color:white;text-align:center">@contact.Telefon</p> 
+                        <br />
+
+                        <img src="~/img/mail.png"  <p style="color:white;text-align:center">@contact.Mail</p>  
+                        <br />
+
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+
+
+                        @{ BozYapi.Models.tbl_Aboutus aboutus = @ViewBag.Aboutus;}
+
+
+                        <h4 style="color:white;text-align:center">HAKKIMIZDA</h4><br />
+
+                        <p style="color: white;text-align:center">@aboutus.Aboutus</p>
+                    </div>
+                </div>
+
+
+
+                @*<div class="col-lg-3 col-md-6 col-sm-6 social-widget">
+                        <div class="single-footer-widget">
+                            <h3>TAKİP ET</h3>
+                            <p></p>
+                            <div class="footer-social d-flex align-items-center">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                                <a href="#"><i class="fa fa-behance"></i></a>
+                            </div>
+                        </div>
+                    </div>*@
+
+
+            </div>
+    </footer>
+    <!-- End footer Area -->
+
+    <script src="~/Scripts/jquery-3.0.0.min.js"></script>
+    @*<script src="~/Scripts/js/vendor/jquery-2.2.4.min.js"></script>*@
+    <script src="~/Scripts/js/vendor/bootstrap.min.js"></script>
+    <script src="~/Scripts/js/easing.min.js"></script>
+    <script src="~/Scripts/js/hoverIntent.js"></script>
+    <script src="~/Scripts/js/superfish.min.js"></script>
+    <script src="~/Scripts/js/jquery.ajaxchimp.min.js"></script>
+    <script src="~/Scripts/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/Scripts/js/owl.carousel.min.js"></script>
+    <script src="~/Scripts/js/jquery.nice-select.min.js"></script>
+    <script src="~/Scripts/js/hexagons.min.js"></script>
+    <script src="~/Scripts/js/waypoints.min.js"></script>
+    <script src="~/Scripts/js/jquery.counterup.min.js"></script>
+    <script src="~/Scripts/js/parallax.min.js"></script>
+    <script src="~/Scripts/js/mail-script.js"></script>
+    <script src="~/Scripts/js/main.js"></script>
+
+
+</body>
+</html>

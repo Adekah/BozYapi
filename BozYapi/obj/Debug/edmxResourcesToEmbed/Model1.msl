@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BozYapiDBModelStoreContainer" CdmEntityContainer="BozYapiDBEntities">
+    <EntitySetMapping Name="tbl_Hizmetler">
+      <EntityTypeMapping TypeName="BozYapiDBModel.tbl_Hizmetler">
+        <MappingFragment StoreEntitySet="tbl_Hizmetler">
+          <ScalarProperty Name="Hizmet_ID" ColumnName="Hizmet_ID" />
+          <ScalarProperty Name="Hizmet_Adı" ColumnName="Hizmet_Adı" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Images">
+      <EntityTypeMapping TypeName="BozYapiDBModel.tbl_Images">
+        <MappingFragment StoreEntitySet="tbl_Images">
+          <ScalarProperty Name="Image_ID" ColumnName="Image_ID" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Image_Title" ColumnName="Image_Title" />
+          <ScalarProperty Name="Image_Text" ColumnName="Image_Text" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Urunler">
+      <EntityTypeMapping TypeName="BozYapiDBModel.tbl_Urunler">
+        <MappingFragment StoreEntitySet="tbl_Urunler">
+          <ScalarProperty Name="Urun_ID" ColumnName="Urun_ID" />
+          <ScalarProperty Name="Urun_Adi" ColumnName="Urun_Adi" />
+          <ScalarProperty Name="Urun_Text" ColumnName="Urun_Text" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BozYapiDBModelStoreContainer" CdmEntityContainer="BozYapiDBEntities">
+    <EntitySetMapping Name="tbl_Aboutus">
+      <EntityTypeMapping TypeName="BozYapiDBModel.tbl_Aboutus">
+        <MappingFragment StoreEntitySet="tbl_Aboutus">
+          <ScalarProperty Name="Aboutus_ID" ColumnName="Aboutus_ID" />
+          <ScalarProperty Name="Aboutus" ColumnName="Aboutus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Contact">
+      <EntityTypeMapping TypeName="BozYapiDBModel.tbl_Contact">
+        <MappingFragment StoreEntitySet="tbl_Contact">
+          <ScalarProperty Name="Contact_ID" ColumnName="Contact_ID" />
+          <ScalarProperty Name="Google" ColumnName="Google" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Images">
+      <EntityTypeMapping TypeName="BozYapiDBModel.tbl_Images">
+        <MappingFragment StoreEntitySet="tbl_Images">
+          <ScalarProperty Name="Image_ID" ColumnName="Image_ID" />
+          <ScalarProperty Name="Image" ColumnName="Image" />
+          <ScalarProperty Name="Image_Title" ColumnName="Image_Title" />
+          <ScalarProperty Name="Image_Text" ColumnName="Image_Text" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Products">
+      <EntityTypeMapping TypeName="BozYapiDBModel.tbl_Products">
+        <MappingFragment StoreEntitySet="tbl_Products">
+          <ScalarProperty Name="Product_ID" ColumnName="Product_ID" />
+          <ScalarProperty Name="Product_Name" ColumnName="Product_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_Services">
+      <EntityTypeMapping TypeName="BozYapiDBModel.tbl_Services">
+        <MappingFragment StoreEntitySet="tbl_Services">
+          <ScalarProperty Name="Service_ID" ColumnName="Service_ID" />
+          <ScalarProperty Name="Service_Tesisat" ColumnName="Service_Tesisat" />
+          <ScalarProperty Name="Service_Tadilat" ColumnName="Service_Tadilat" />
+          <ScalarProperty Name="Service_Dekorasyon" ColumnName="Service_Dekorasyon" />
+          <ScalarProperty Name="Service_Nalbur" ColumnName="Service_Nalbur" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

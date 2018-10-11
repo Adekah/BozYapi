@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BozYapiDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tbl_Hizmetler">
+    <Key>
+      <PropertyRef Name="Hizmet_ID" />
+    </Key>
+    <Property Name="Hizmet_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Hizmet_Adı" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbl_Images">
+    <Key>
+      <PropertyRef Name="Image_ID" />
+    </Key>
+    <Property Name="Image_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Image" Type="nvarchar" MaxLength="50" />
+    <Property Name="Image_Title" Type="nvarchar" MaxLength="50" />
+    <Property Name="Image_Text" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbl_Urunler">
+    <Key>
+      <PropertyRef Name="Urun_ID" />
+    </Key>
+    <Property Name="Urun_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Urun_Adi" Type="nvarchar" MaxLength="50" />
+    <Property Name="Urun_Text" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="BozYapiDBModelStoreContainer">
+    <EntitySet Name="tbl_Hizmetler" EntityType="Self.tbl_Hizmetler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Images" EntityType="Self.tbl_Images" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Urunler" EntityType="Self.tbl_Urunler" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

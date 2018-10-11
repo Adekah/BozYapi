@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BozYapiDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tbl_Aboutus">
+    <Key>
+      <PropertyRef Name="Aboutus_ID" />
+    </Key>
+    <Property Name="Aboutus_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Aboutus" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_Contact">
+    <Key>
+      <PropertyRef Name="Contact_ID" />
+    </Key>
+    <Property Name="Contact_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Google" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Adres" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_Images">
+    <Key>
+      <PropertyRef Name="Image_ID" />
+    </Key>
+    <Property Name="Image_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Image" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Image_Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Image_Text" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_Products">
+    <Key>
+      <PropertyRef Name="Product_ID" />
+    </Key>
+    <Property Name="Product_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Product_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tbl_Services">
+    <Key>
+      <PropertyRef Name="Service_ID" />
+    </Key>
+    <Property Name="Service_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Service_Tesisat" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Service_Tadilat" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Service_Dekorasyon" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Service_Nalbur" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="BozYapiDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tbl_Aboutus" EntityType="Self.tbl_Aboutus" />
+    <EntitySet Name="tbl_Contact" EntityType="Self.tbl_Contact" />
+    <EntitySet Name="tbl_Images" EntityType="Self.tbl_Images" />
+    <EntitySet Name="tbl_Products" EntityType="Self.tbl_Products" />
+    <EntitySet Name="tbl_Services" EntityType="Self.tbl_Services" />
+  </EntityContainer>
+</Schema>
